@@ -1,0 +1,74 @@
+.board{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 150px;
+
+}
+
+header{
+    text-align: center;
+    justify-items: center;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+article {
+    text-align: center;
+    justify-items: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.square{
+    background-color: rgb(35, 35, 35);
+    border-color: black;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+    opacity: 70%;
+    text-align: center;
+    align-content: center;
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sq1{
+    border-top-left-radius: 20px;
+}
+
+#sq3{
+    border-top-right-radius: 20px;
+}
+
+#sq7{
+    border-bottom-left-radius: 20px;
+}
+
+#sq9{
+    border-bottom-right-radius: 20px;
+}
+
+button {
+    align-content: center;
+    justify-items: center;
+    background-color: rgb(232, 150, 253);
+    color: black;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.square:hover {
+    background-color: rgb(232, 150, 253)
+}
